@@ -53,7 +53,7 @@ class Ps_BuybuttonLite extends Module
         // Settings paths
         $this->css_path = $this->_path.'views/css/';
 
-        // Confirm uninstall
+        // Confirm uninstall - test zip release
         $this->confirmUninstall = $this->trans('Are you sure you want to uninstall this module?', array(), 'Modules.Legalcompliance.Admin');
         $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
     }
